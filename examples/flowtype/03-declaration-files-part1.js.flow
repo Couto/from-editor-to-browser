@@ -1,0 +1,13 @@
+declare var list: Array<number>;
+declare function toString(n: number): string;
+
+type Hobbie = 'Reading' | 'Skating' | 'Music'
+
+type Person = {
+  name: string,
+  age: number,
+  hobbies: Array<Hobbie>,
+  address?: {
+    street: string
+  }
+}

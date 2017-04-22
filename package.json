@@ -1,0 +1,30 @@
+{
+  "name": "from-editor-to-browser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Examples for the \"From editor to browser\" talk.",
+  "repository": "https://github.com/Couto/from-editor-to-browser",
+  "author": "Luis Couto <hello@luiscouto.pt>",
+  "devDependencies": {
+    "babel-eslint": "^7.2.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-compat": "^1.0.2",
+    "eslint-plugin-flowtype": "^2.32.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "flow-bin": "^0.44.2"
+  },
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "browserslist": [
+    "last 4 versions"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.5.4"
+  }
+}

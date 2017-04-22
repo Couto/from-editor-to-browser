@@ -1,0 +1,9 @@
+[ignore]
+
+[include]
+./examples/flowtype/**.js.flow
+
+[libs]
+./examples/flowtype/**.js.flow
+
+[options]
